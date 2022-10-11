@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.rfid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.NFC"/>
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        tools:ignore="GradleOverrides" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+
+    <uses-feature android:name="android.hardware.nfc" android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.rfid"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.example.rfid.ui.activity.AddProductActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rfid.ui.activity.NFCScanActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rfid.ui.activity.RetouchMaterialActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rfid.ui.activity.AddItemActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rfid.ui.activity.DetailPageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rfid.ui.activity.FindAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rfid.ui.activity.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rfid.ui.activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rfid.ui.activity.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.rfid.ui.activity.MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

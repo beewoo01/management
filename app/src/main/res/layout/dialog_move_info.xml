@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_txv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/move_info"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:padding="@dimen/_10sdp"
+            android:gravity="center"
+            android:textColor="@color/pointcolor"
+            android:background="@color/subcolor"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/textcolor2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingVertical="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/squadron_txv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/squadron"
+                    android:textColor="@color/textcolor2"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/squadron_sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:background="@drawable/bg_spinner_01"
+                    android:layout_marginEnd="@dimen/_10sdp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingVertical="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/platoon_txv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/platoon"
+                    android:textColor="@color/textcolor2"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/platoon_sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:background="@drawable/bg_spinner_01"
+                    android:layout_marginEnd="@dimen/_10sdp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingVertical="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/name_txv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/inputname"
+                    android:textColor="@color/textcolor2"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/inputname_edt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:background="@drawable/bg_rect_01"
+                    android:hint="@string/inputname_"
+                    android:padding="@dimen/_7sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingVertical="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/etc_txv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/etc"
+                    android:textColor="@color/textcolor2"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/inputcontext_txv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:background="@drawable/bg_rect_01"
+                    android:hint="@string/inputcontext"
+                    android:padding="@dimen/_7sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/move_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_button_01"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/move"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

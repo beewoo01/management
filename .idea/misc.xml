@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/drawable/bg_button_01.xml" value="0.261" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/drawable/bg_button_02.xml" value="0.261" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/drawable/bg_rect_01.xml" value="0.261" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/drawable/bg_rect_02.xml" value="0.261" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/drawable/bg_rounded_01.xml" value="0.261" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/drawable/bg_rounded_02.xml" value="0.261" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/drawable/bg_rounded_03.xml" value="0.261" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/drawable/bg_rounded_04.xml" value="0.261" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/drawable/bg_rounded_05.xml" value="0.261" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/drawable/bg_rounded_06.xml" value="0.261" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/drawable/bg_spinner_01.xml" value="0.261" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/drawable/ic_arrow_down.xml" value="0.261" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/activity_add_material.xml" value="0.22" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/activity_detail_page.xml" value="0.2" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/activity_find_account.xml" value="0.2157751586582049" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/activity_login.xml" value="0.2157751586582049" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/activity_manage_material.xml" value="0.2" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/activity_nfc_scan.xml" value="0.22" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/activity_retouch_material.xml" value="0.33" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/dialog_default.xml" value="0.22" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/dialog_find_account.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/dialog_find_id.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/dialog_move_info.xml" value="0.22" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/dialog_permission.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/dialog_retouch.xml" value="0.22" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/fragment_add_item.xml" value="0.22" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/fragment_add_material.xml" value="0.22" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/fragment_find_id.xml" value="0.22" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/fragment_find_pw.xml" value="0.25" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/item_detail_re.xml" value="0.25" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/item_mainre.xml" value="0.33" />
+        <entry key="..\:/Users/code/Desktop/BaseProject/app/src/main/res/layout/item_spinner.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/drawable/bg_circle_01.xml" value="0.1985" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/drawable/bg_rect_01.xml" value="0.3065" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/drawable/bg_rounded_05.xml" value="0.2395" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/drawable/bg_rounded_06.xml" value="0.2395" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/drawable/bg_rounded_07.xml" value="0.2385" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/activity_add_item.xml" value="0.33" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/activity_add_material.xml" value="0.25" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/activity_add_product.xml" value="0.30055579307396324" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/activity_detail_page.xml" value="0.1851218469431381" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/activity_find_account.xml" value="0.1278324070115434" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/activity_login.xml" value="0.2157751586582049" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/activity_main.xml" value="0.1851218469431381" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/activity_nfc_scan.xml" value="0.20607097050021378" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/activity_retouch_material.xml" value="0.33" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/activity_signup.xml" value="0.30055579307396324" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/activity_splash.xml" value="0.2157751586582049" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/dialog_default.xml" value="0.1278324070115434" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/dialog_move_info.xml" value="0.20350577169730655" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/dialog_photo.xml" value="0.2214621633176571" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/dialog_retouch.xml" value="0.22231722958529285" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/fragment_add_item.xml" value="0.2" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/fragment_add_material.xml" value="0.13595553655408293" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/fragment_find_id.xml" value="0.1278324070115434" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/fragment_find_pw.xml" value="0.2157751586582049" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/item_detail_re.xml" value="0.5" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/layout/item_mainre.xml" value="0.5" />
+        <entry key="..\:/Users/code/Desktop/RFID/app/src/main/res/xml/file_pahts.xml" value="0.30055579307396324" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

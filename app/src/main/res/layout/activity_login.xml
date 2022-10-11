@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.activity.LoginActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/subcolor">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/startGuid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="25dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/endGuid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="25dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:id="@+id/logo_imv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/logo"
+                app:srcCompat="@drawable/ic_logo" />
+
+            <EditText
+                android:id="@+id/id_txv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_rect_01"
+                android:drawableStart="@drawable/ic_id"
+                android:drawablePadding="15dp"
+                android:hint="@string/inputid"
+                android:inputType="text"
+
+                android:paddingStart="15dp"
+                android:textSize="@dimen/_12sdp" />
+
+            <EditText
+                android:id="@+id/pw_txv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:background="@drawable/bg_rect_01"
+                android:drawableStart="@drawable/ic_pw"
+                android:drawablePadding="15dp"
+                android:hint="@string/inputpw"
+                android:inputType="textPassword"
+                android:paddingStart="15dp"
+                android:textSize="@dimen/_12sdp" />
+
+
+            <!--<LinearLayout
+                android:id="@+id/id_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:weightSum="10"
+                android:padding="@dimen/_13sdp"
+                android:background="@drawable/bg_rect_01">
+
+                <ImageView
+                    android:id="@+id/id_imv"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_id" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/pw_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:weightSum="10"
+                android:padding="@dimen/_13sdp"
+                android:background="@drawable/bg_rect_01">
+
+                <ImageView
+                    android:id="@+id/pw_imv"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_pw" />
+
+                <EditText
+                    android:id="@+id/pw_txv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:background="@color/trans"
+                    android:hint="@string/inputpw"
+                    android:textSize="@dimen/_12sdp"
+                    android:inputType="textPassword"
+                    android:layout_gravity="center"/>
+            </LinearLayout>-->
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_button_01"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_15sdp">
+
+                <TextView
+                    android:id="@+id/findidpw_txv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:gravity="center"
+                    android:text="@string/findidpw"
+                    android:textColor="@color/textcolor2"
+                    android:textSize="@dimen/_13sdp" />
+
+                <View
+                    android:id="@+id/line_view2"
+                    android:layout_width="1dp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:background="@color/gray" />
+
+                <TextView
+                    android:id="@+id/signup"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:text="@string/singup"
+                    android:textColor="@color/textcolor2"
+                    android:textSize="@dimen/_13sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/line_view2"
+                    app:layout_constraintTop_toBottomOf="@id/login_btn" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
